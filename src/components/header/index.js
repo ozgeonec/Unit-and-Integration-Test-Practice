@@ -4,9 +4,9 @@ import './styles.scss';
 const Header = (props) => {
     return (
         <header data-test="headerComponent">
-            <div className="wrap">
+            <div className="wrapper">
                 <div className="logo">
-                  LOGO
+                    LOGO
                 </div>
             </div>
         </header>
