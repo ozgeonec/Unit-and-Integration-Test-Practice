@@ -3,7 +3,7 @@ import {applyMiddleware, createStore} from 'redux';
 import rootReducer from './../src/reducers';
 import {middlewares} from '/../src/createStore';
 
-export const findByTestAtrr = (component, attr) => {
+export const findByTestAttr = (component, attr) => {
     return component.find(`[data-test='${attr}']`);
 };
 
